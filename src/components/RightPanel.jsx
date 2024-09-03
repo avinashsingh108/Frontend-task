@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import {
     FaAlignLeft,
     FaAlignJustify,
@@ -38,7 +37,6 @@ import {
               />
             </div>
   
-            {/*Position Inputs */}
             <div className="pb-4 border-b-2 border-gray-100 border-opacity-70">
               <label className="font-semibold mb-2">Position</label>
               <div className="flex flex-col gap-y-2">
@@ -214,7 +212,6 @@ import {
                       <MdFormatBold />
                     </button>
   
-                    {/* Italic Button */}
                     <button
                       className={`p-1 border rounded ${
                         textBoxes[selectedBoxIndex].italic
@@ -232,7 +229,6 @@ import {
                       <BsTypeItalic />
                     </button>
   
-                    {/* Underline Button */}
                     <button
                       className={`p-1 border rounded ${
                         textBoxes[selectedBoxIndex].underline
@@ -253,7 +249,6 @@ import {
                 </div>
               </div>
             </div>
-            {/* Text and Background Color Inputs */}
             <div>
               <label className="font-semibold mb-2">Text Color:</label>
               <div className="flex items-center space-x-4 bg-gray-100 rounded-md px-2 py-1">

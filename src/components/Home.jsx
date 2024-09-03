@@ -26,7 +26,7 @@ const Home = () => {
         text: 'Sample Text',
       };
       setTextBoxes([...textBoxes, newTextBox]);
-      setSelectedBoxIndex(textBoxes.length); // This should be textBoxes.length - 1
+      setSelectedBoxIndex(textBoxes.length); 
     }
   }, [textBoxes]);
 
